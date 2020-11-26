@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.pan1 {
+    padding: 2rem 10rem 2rem 10rem;
+    background-color: rgb(231, 167, 82);
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+    border-bottom: 0.5rem solid brown;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.queso {
+    padding: 1rem 8rem 1rem 12rem;
+    background-color: yellow;
+    border-bottom: 0.2rem solid rgb(179, 123, 4);
+}
+
+.tomate {
+    padding: 0.7rem 9rem 0.7rem 9rem;
+    background-color: red;
+}
+
+.cebolla {
+    padding: 0.2rem 8rem 0.2rem 8rem;
+    background-color:purple ;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.albondiga {
+    padding: 3rem 3rem 3rem 3rem;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.lechuga {
+    padding: 1rem 10rem 1rem 10rem;
+    background-color: rgb(60, 165, 92);
+
+    border-bottom: 0.5rem rgb(33, 112, 33) solid;
+    border-radius: 0rem 0rem 2rem 2rem;
+
+}
+
+.carne {
+    padding: 1rem 11rem 1rem 11rem;
+    background-color: rgb(161, 78, 0);
+
+    border-bottom: 1px black solid;
+    /* border-bottom: 0.3rem rgb(82, 49, 0) solid; */
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.pan2 {
+    padding: 1rem 10rem 1rem 10rem;
+    background-color: rgb(231, 167, 82);
+    border-top: solid rgb(207, 142, 81) 0.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.plato {
+    padding: 1rem 13rem 1rem 13rem;
+    border-radius: 2rem 2rem 4rem 4rem;
+
+    background-color: grey;
