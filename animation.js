@@ -18,12 +18,6 @@ window.sr = ScrollReveal();
     });
 
 
-    // sr.reveal('.container-hijo', {
-    //     duration: 2000,
-    //     origin: 'bottom',
-    //     distance: '100px'
-    // });
-
     sr.reveal('#WhoAmI', {
         duration: 2000,
         origin: 'left',
@@ -39,10 +33,6 @@ window.sr = ScrollReveal();
     })
 
 
-
     sr.reveal('#portfolioCards', {
         duration: 3000
     })
-
-
-    
