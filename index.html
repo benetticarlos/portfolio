@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- BOOTSTRAP 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/613472c90e.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <header>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="position: fixed;width: -webkit-fill-available;background-color: #000000ba;z-index: 10;height: 10%;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">&lt;Hello! /&gt;</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home"> <i class="fas fa-home"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about"> <i class="fas fa-building"></i>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio"><i class="fab fa-github"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="container-padre text-center" id="home">
+        <div class="container-hijo">
+
+            <div class="row text-white text-center" style="justify-content: center;
+        align-items: center;">
+                <div class="col-sm-4" style="
+        margin-left: 2rem;
+        ">
+                    <img src="img/IMGperfilCuadrada.jpg" class="imagenPerfil" alt="">
+                </div>
+                <div class="col-sm-6" id="presentacion">
+                    <h4 style="font-size: xx-large;">Hi!</h4> <br>
+                    <h2 style="color: #00adff;font-weight: bolder;font-size: xxx-large;">I'm Carlos Benetti</h2> <br>
+                    <h4>Full Stack Developer</h4>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid about pt-5" id="about">
+        <h2 style="
+        margin-left: 6vw;
+        margin-bottom: 3%;
+    ">About</h2>
+        <div class="row" style="
+        margin-left: 6vw;
+    ">
+            <div class="col-4" id="WhoAmI">
+                <h4>Who am I?</h4> <br>
+                <h4>I'm Carlos Benetti, Web Developer and Engineering student</h4> <br>
+                <p>i'm carlos, junior web developer and electromechanical engineering student. I am passionate about science and technological advance. Thanks for visiting my site!</p> <br>
+                <a href="CV Benetti FullStack JR.pdf" download>
+
+                    <button type="button" class="btn btn-secondary">Download CV</button>
+                </a>
+            </div>
+            <div class="col-8" id="skills">
+                <h4 style="
+                margin-left: 10%;
+            ">Skills</h4><br>
+                <div class="container text-center" style="
+                font-size: x-small;
+            ">
+                    <div class="row">
+                        <div class="col-4">
+                            <i class="fab fa-html5 fa-10x" style="color: #fc490b;"></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="col-4">
+                            <i class="fab fa-css3-alt fa-10x" style="color: #264de4;"></i>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="col-4">
+                            <i class="fab fa-js-square fa-10x" style="color: #f0db4f;"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="col-4">
+                            <i class="fab fa-node-js fa-10x" style="color: #88c043;"></i>
+                            <h3>Node.js</h3>
+                        </div>
+                        <div class="col-4">
+                            <i class="fab fa-python fa-10x" style="color: #376f9e;"></i>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid portfolio pt-5" id="portfolio">
+        <h2 style="padding-bottom: 3%; padding-left: 5%;">Portfolio</h2>
+
+
+        <div id="portfolioCards" class="row" style="margin-left: 5%;
+        margin-right: 5%;">
+
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="img/ScreenAPI.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather App</h5>
+                        <p class="card-text">App that uses an API to show the weather of Buenos Aires in real time</p>
+
+
+                            <a href="https://github.com/benetticarlos/APIclima" target="_blank">
+
+                                <button type="button" class="btn btn-secondary">See in GitHub</button>
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="img/ScreenSupplyAppCut.jpeg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Supply Webpage</h5>
+                        <p class="card-text">Website made with NodeJS and MySQL. This was my final project for the web development course.</p>
+                        <a href="https://github.com/benetticarlos/Supply-app" target="_blank">
+
+                            <button type="button" class="btn btn-secondary">See in GitHub</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="img/ScreenNodeApp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Node App</h5>
+                        <p class="card-text">This is a simple web page to practice Node.</p>
+                        <a href="https://github.com/benetticarlos/NodeWeb" target="_blank">
+
+                            <button type="button" class="btn btn-secondary">See in GitHub</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="img/ScreenCovidApp.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Covid-19 records</h5>
+                        <p class="card-text">Application to count and graph Covid-19 cases made in Python. This was my final project in a Python course for data analysis.</p>
+                        <a href="https://github.com/benetticarlos/contadorCovid" target="_blank">
+
+                            <button type="button" class="btn btn-secondary">See in GitHub</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div id="contact" class="container-fluid contact pt-5">
+        <h2 style="padding-bottom: 1%; padding-left: 5%;">Contact</h2> <br>
+        <h4 style="margin-left: 5%;">contact me if you want us to work together</h4>
+
+        <div class="container" id="contactMe">
+            <div class="row text-center" style="
+            font-size: x-small;
+            margin-top: 3%;
+        ">
+
+                <div class="col" style="
+                font-size: smaller;
+            ">
+                    <a href="mailto:benetticarlos1@gmail.com" style="text-decoration: none;">
+                        <!-- <section href="mailto:benetticarlos1@gmail.com"> -->
+
+                        <i class="far fa-envelope  fa-10x" style="color: #FF0000;"></i>
+
+                        <h3 style="color: black;">benetticarlos1@gmail.com</h3>
+                        <!-- </section> -->
+                    </a>
+                </div>
+
+                <div class="col" style="
+                font-size: smaller;
+            ">
+                    <a href="https://www.linkedin.com/in/benetti-carlos/" style="text-decoration: none;">
+                        <i class="fab fa-linkedin  fa-10x" style="color: #0e76a8;"></i>
+                        <h3 style="color: black;">Follow me in LinkedIn</h3>
+                    </a>
+                </div>
+
+                <div class="col" style="
+                font-size: smaller;
+            ">
+                    <a href="https://github.com/benetticarlos" style="text-decoration: none;">
+                        <i class="fab fa-github  fa-10x" style="color: black;"></i>
+                        <h3 style="color: black;">Follow me in GitHub</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- FORMULARIO DE CONTACTO -->
+        <div class="container-fluid form-contact pt-3">
+            <form action="https://formspree.io/xknqdjvj" method="POST">
+                <section class="text-center">
+                    <h3>Mail me</h3>
+                </section>
+                <div class="mb-3">
+                    
+                    <input class="form-control" type="text" name="Name" placeholder="Name"
+                    aria-label="default input example">
+                </div>
+
+
+
+
+                <div class="mb-3">
+                    <input type="email" name="Mail" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Mail@example.com">
+                </div>
+
+
+
+
+
+<div class="mb-3">
+
+    
+    <input class="form-control" type="text" name="Phone" placeholder="Phone (optional)"
+    aria-label="default input example">
+</div>
+
+
+
+                <div class="mb-3">
+                    <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                </div>
+
+
+
+
+                <button type="submit" class="btn btn-success">SEND</button>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+<!-- SCROLLREVEAL -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="index.js"></script>
+
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
