@@ -59,3 +59,78 @@ form {
     height: 36%;
     text-align: right;
   }
+
+
+/* medyaqueris */
+
+@media (max-width: 800px) {
+    .contenedorPresentacion {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+        }
+    
+    #divPerfil {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        margin-left: 0% !important;
+
+
+        width: 50%;
+        margin-top: 10%;
+        }
+    
+    #presentacion {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+
+        width: fit-content;
+        padding-top: 5%;
+        }
+
+
+        .contenedorWhoAmI {
+            display: inline-flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-content: flex-start;
+            align-items: center;
+            }
+        
+        #WhoAmI {
+            order: 0;
+            flex: 0 1 auto;
+            align-self: auto;
+
+            width: 100%;
+            }
+        
+        #skills {
+            order: 0;
+            flex: 0 1 auto;
+            align-self: auto;
+
+            width: auto;
+            }
+
+            #tituloSkills {
+                margin-left: 0% !important;
+                margin-top: 2%;
+            }
+
+
+
+
+
+
+
+
+
+
+  }

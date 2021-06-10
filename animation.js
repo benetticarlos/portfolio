@@ -20,7 +20,7 @@ window.sr = ScrollReveal();
 
     sr.reveal('#WhoAmI', {
         duration: 2000,
-        origin: 'left',
+        // origin: 'left',
         distance: '100px'
     });
 
@@ -33,6 +33,6 @@ window.sr = ScrollReveal();
     })
 
 
-    sr.reveal('#portfolioCards', {
-        duration: 3000
-    })
+    // sr.reveal('#portfolioCards', {
+    //     duration: 3000
+    // })
