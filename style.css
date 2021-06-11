@@ -1,9 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
 html {
     scroll-behavior: smooth;
     
 }
 
 body {
+    /* background-image: url(img/codePic2.jpg); */
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#backgroundPic {
     background-image: url(img/codePic2.jpg);
 }
 
@@ -36,6 +48,8 @@ body {
 background-color: #fff;
     }
 
+
+
 .portfolio {
     background-color: #fff;
 }
@@ -44,13 +58,20 @@ background-color: #fff;
     background-color: #fff;
 }
 
+.ProyectoPortfolio {
+    /* width: 100%; */
+    
+margin-bottom: 5vh;
+
+    }
+
 
 .card {
     width: auto;
 }
 
 form {
-    width: 40%;
+    width: 65%;
     margin: auto;
     /* background-color: rgba(0, 0, 0, 0.2); */
     padding: 1rem 2rem;
@@ -59,6 +80,38 @@ form {
     height: 36%;
     text-align: right;
   }
+
+
+.linksContact {
+    margin-bottom: 2vh;
+    /* font-size: 50% !important; */
+}
+
+/* .lineContact {
+    font-size: large;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* medyaqueris */
@@ -94,6 +147,10 @@ form {
         }
 
 
+        #about {
+            margin-left: 0% !important;
+        }
+
         .contenedorWhoAmI {
             display: inline-flex;
             flex-direction: column;
@@ -101,6 +158,8 @@ form {
             justify-content: center;
             align-content: flex-start;
             align-items: center;
+
+            margin-left: 0% !important;
             }
         
         #WhoAmI {
@@ -117,6 +176,8 @@ form {
             align-self: auto;
 
             width: auto;
+
+            margin-left: 0% !important;
             }
 
             #tituloSkills {
@@ -124,13 +185,50 @@ form {
                 margin-top: 2%;
             }
 
+            .tittle {
+                margin-left: 0% !important;
+            }
+
+            .avatarTecno {
+                font-size: 60%;
+            }
+
+            .nombreTecno {
+                font-size: large;
+            }
+            
+
+            /* #portfolioCards {
+                display: grid;
+                 */
+            /* } */
+
+            .ProyectoPortfolio {
+            /* width: 100%; */
+            
+    margin-bottom: 5vh;
+
+            }
+
+            .row {
+                place-content: center;
+            }
+
+
+            .linksContact {
+                margin-bottom: 2vh;
+                font-size: 50% !important;
+            }
+
+            .lineContact {
+                font-size: large;
+            }
 
 
 
 
-
-
-
-
+            form {
+                width: auto;
+            }
 
   }
