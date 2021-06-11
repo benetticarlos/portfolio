@@ -1,234 +1,210 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
 html {
-    scroll-behavior: smooth;
-    
+  scroll-behavior: smooth;
 }
 
 body {
-    /* background-image: url(img/codePic2.jpg); */
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar {
+  position: fixed;
+  width: -webkit-fill-available;
+  background-color: #000000ba;
+  z-index: 10;
+  height: 10%;
+}
+
+.contenedorPresentacion {
+  justify-content: center;
+  align-items: center;
+}
+
+#divPerfil {
+  margin-left: 2rem;
 }
 
 #backgroundPic {
-    background-image: url(img/codePic2.jpg);
+  background-image: url(img/codePic2.jpg);
 }
 
 .imagenPerfil {
-    width: 80%;
-    border-radius: 50%;
+  width: 80%;
+  border-radius: 50%;
 }
 
 .container-padre {
-    height: 100vh;
-    background-color: rgba(0,0,0,0.7);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: stretch;
-    align-items: center;
-    }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
 
 .container-hijo {
-    width: 60%;
+  width: 60%;
 
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
 
-    .about {
-background-color: #fff;
-    }
+.about {
+  background-color: #fff;
+}
 
+.contenedorWhoAmI {
+  margin-left: 6vw;
+}
 
+#tituloSkills {
+  margin-left: 10%;
+}
 
 .portfolio {
-    background-color: #fff;
+  background-color: #fff;
+}
+
+#portfolioCards {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .contact {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .ProyectoPortfolio {
-    /* width: 100%; */
-    
-margin-bottom: 5vh;
-
-    }
-
+  margin-bottom: 5vh;
+}
 
 .card {
-    width: auto;
+  width: auto;
 }
 
 form {
-    width: 65%;
-    margin: auto;
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    padding: 1rem 2rem;
-    box-sizing: border-box;
-    border-radius: 2rem;
-    height: 36%;
-    text-align: right;
-  }
-
-
-.linksContact {
-    margin-bottom: 2vh;
-    /* font-size: 50% !important; */
+  width: 65%;
+  margin: auto;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  border-radius: 2rem;
+  height: 36%;
+  text-align: right;
 }
 
-/* .lineContact {
-    font-size: large;
-} */
+.linksContact {
+  margin-bottom: 2vh;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* medyaqueris */
+/* Media query */
 
 @media (max-width: 800px) {
-    .contenedorPresentacion {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-content: flex-start;
-        align-items: center;
-        }
-    
-    #divPerfil {
-        order: 0;
-        flex: 0 1 auto;
-        align-self: auto;
-        margin-left: 0% !important;
-
-
-        width: 50%;
-        margin-top: 10%;
-        }
-    
-    #presentacion {
-        order: 0;
-        flex: 0 1 auto;
-        align-self: auto;
-
-        width: fit-content;
-        padding-top: 5%;
-        }
-
-
-        #about {
-            margin-left: 0% !important;
-        }
-
-        .contenedorWhoAmI {
-            display: inline-flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            justify-content: center;
-            align-content: flex-start;
-            align-items: center;
-
-            margin-left: 0% !important;
-            }
-        
-        #WhoAmI {
-            order: 0;
-            flex: 0 1 auto;
-            align-self: auto;
-
-            width: 100%;
-            }
-        
-        #skills {
-            order: 0;
-            flex: 0 1 auto;
-            align-self: auto;
-
-            width: auto;
-
-            margin-left: 0% !important;
-            }
-
-            #tituloSkills {
-                margin-left: 0% !important;
-                margin-top: 2%;
-            }
-
-            .tittle {
-                margin-left: 0% !important;
-            }
-
-            .avatarTecno {
-                font-size: 60%;
-            }
-
-            .nombreTecno {
-                font-size: large;
-            }
-            
-
-            /* #portfolioCards {
-                display: grid;
-                 */
-            /* } */
-
-            .ProyectoPortfolio {
-            /* width: 100%; */
-            
-    margin-bottom: 5vh;
-
-            }
-
-            .row {
-                place-content: center;
-            }
-
-
-            .linksContact {
-                margin-bottom: 2vh;
-                font-size: 50% !important;
-            }
-
-            .lineContact {
-                font-size: large;
-            }
-
-
-
-
-            form {
-                width: auto;
-            }
-
+  .contenedorPresentacion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
   }
+
+  #divPerfil {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin-left: 0% !important;
+
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  #presentacion {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    width: fit-content;
+    padding-top: 5%;
+  }
+
+  #about {
+    margin-left: 0% !important;
+  }
+
+  .contenedorWhoAmI {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+
+    margin-left: 0% !important;
+  }
+
+  #WhoAmI {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    width: 100%;
+  }
+
+  #skills {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    width: auto;
+
+    margin-left: 0% !important;
+  }
+
+  #tituloSkills {
+    margin-left: 0% !important;
+    margin-top: 2%;
+  }
+
+  .tittle {
+    margin-left: 0% !important;
+  }
+
+  .avatarTecno {
+    font-size: 60%;
+  }
+
+  .nombreTecno {
+    font-size: large;
+  }
+
+  .ProyectoPortfolio {
+    margin-bottom: 5vh;
+  }
+
+  .row {
+    place-content: center;
+  }
+
+  .linksContact {
+    margin-bottom: 2vh;
+    font-size: 50% !important;
+  }
+
+  .lineContact {
+    font-size: large;
+  }
+
+  form {
+    width: auto;
+  }
+}
